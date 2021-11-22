@@ -1,0 +1,88 @@
+
+
+.header{
+    margin-left: 300px;
+}
+
+
+.header a p{
+    font-size: 2.6rem;
+}
+
+.card2{
+    margin:30px;
+    border: 2px solid blue;
+    height: 250px;
+    width: 20%;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 5px 10px 5px  blue;
+    margin-left: 300px;
+
+}
+.class1{
+    text-align: center;
+    font-size: 1.6rem;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    width: 80%;
+    text-align: left;
+    height: 30%;
+    color: chocolate;
+    border-bottom: 2px solid black;
+}
+
+.class2{
+    text-decoration: line-through;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 120px;
+}
+
+.class3{
+    text-align: left;
+    margin-top: 20px;
+}
+
+.class4{
+    text-align: right;
+    margin-bottom: 0;
+}
+
+
+.footer{
+    margin-left: 400px;
+}
+
+/* responsive style  */
+
+@media (max-width: 450px){
+    .header{
+        margin-left: 20%;
+        margin-right: auto;
+    }
+    .header a p{
+        font-size: 2rem;
+    }
+    .card2{
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+
+    .class1{
+        font-size: 1.1rem;
+    }
+
+    .class2{
+        font-size: 0.8rem;
+    }
+    .class3{
+        font-size: 0.8rem;
+    }
+
+    .footer{
+        margin-left: 20%;
+    }
+}

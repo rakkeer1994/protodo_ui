@@ -1,0 +1,110 @@
+
+.card2{
+    margin:30px;
+    border: 2px solid blue;
+    height: 250px;
+    width: 20%;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 5px 10px 5px  blue;
+    margin-left: 300px;
+    margin-top: 150px;
+}
+.class1{
+    text-align: center;
+    font-size: 1.6rem;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    width: 80%;
+    text-align: left;
+    height: 30%;
+    color: chocolate;
+    border-bottom: 2px solid black;
+}
+
+.class2{
+    text-decoration: line-through;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.class3{
+    text-align: left;
+    margin-top: 20px;
+}
+
+.class4{
+    text-align: right;
+    margin-bottom: 0;
+}
+
+.blur{
+        filter:blur(2px); 
+        position: absolute;
+}
+
+.popup{
+    border: 2px solid red;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    background-color: lightgray;
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 260px;
+}
+
+.btn{
+    background-color: red;
+    border-radius: 10px;
+}
+
+.footer{
+    margin-left: 2px;
+    margin-top: 150px;
+}
+
+/* responsive styling */
+@media (max-width: 450px){
+    .header{
+        margin-left: 20%;
+        margin-right: auto;
+    }
+    .header a p{
+        font-size: 2rem;
+    }
+    .card2{
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+
+    .class1{
+        font-size: 1.1rem;
+    }
+
+    .class2{
+        font-size: 0.8rem;
+    }
+    .class3{
+        font-size: 0.8rem;
+    }
+
+    .footer{
+        margin-left: 20%;
+    }
+
+    .popup{
+        margin-left: auto;
+        margin-right: auto;
+        width: 50vw;
+        height: 30vh;
+    }
+    .btn{
+       
+    }
+    input{
+        width: 50px;
+    }
+}
