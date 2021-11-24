@@ -37,7 +37,7 @@ h1{
 }
 
 .footer{
-    margin-left: 600px;
+    margin-left: 50%;
     margin-top: 100px;
 }
 
@@ -67,7 +67,29 @@ h1{
     
     }
     .footer{
-        margin-right: 31%;
+        /* margin-right: 31%; */
+        /* margin-left: 26%; */
+        margin-left: 50%;
+    }
+}
+
+
+@media (min-width: 950px){
+
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 30px;
+        column-gap: 30px;
+        width: 50%;
         margin-left: 26%;
     }
+.card{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100px;
+        height: 80px;
+}
 }
