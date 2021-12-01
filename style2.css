@@ -1,13 +1,22 @@
 
 
 .header{
-    margin-left: 300px;
+    margin-left: 40%;
+    display: flex;
 }
 
 
-.header a p{
+.header a {
     font-size: 2.6rem;
+    padding-left: 13%;
 }
+/* .div11{
+    display: inline-block;
+    padding-top: 5%;
+}
+.div1{
+    border-top: 1px solid black;
+} */
 
 .card2{
     margin:30px;
@@ -17,7 +26,7 @@
     position: relative;
     border-radius: 10px;
     box-shadow: 5px 10px 5px  blue;
-    margin-left: 300px;
+    margin-left: 40%;
 
 }
 .class1{
@@ -49,10 +58,15 @@
     text-align: right;
     margin-bottom: 0;
 }
+.class4 a{
+    text-align: right;
+    margin-bottom: 0;
+    font-size: 2.6rem;
+}
 
 
 .footer{
-    margin-left: 400px;
+    margin-left: 50%;
 }
 
 /* responsive style  */
