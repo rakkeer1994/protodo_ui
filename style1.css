@@ -5,6 +5,7 @@ h1{
 }
 .header{
     display: flex;
+    text-align: center;
 }
 .spn1{
     font-size: 2.6rem;
@@ -46,7 +47,7 @@ h1{
 }
 
 .footer{
-    margin-left: 50%;
+    margin-left: 40%;
     margin-top: 100px;
 }
 
@@ -83,7 +84,7 @@ h1{
     .footer{
         /* margin-right: 31%; */
         /* margin-left: 26%; */
-        margin-left: 50%;
+        margin-left: 40%;
     }
     .inside{
         display: none;
@@ -104,7 +105,7 @@ h1{
         row-gap: 30px;
         column-gap: 30px;
         width: 50%;
-        margin-left: 26%;
+        margin-left: 20%;
     }
 .card{
         width: 120px;

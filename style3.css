@@ -53,7 +53,7 @@
     background-color: lightgray;
     position: absolute;
     margin-top: 240px;
-    margin-left: 260px
+    margin-left: 13%;
 }
 
 .btn{
@@ -61,9 +61,9 @@
     border-radius: 10px;
 }
 
-.footer{
+.footer3{
     margin-left: 2px;
-    margin-top: 150px;
+    margin-top: 154%;
 }
 
 /* responsive styling */
@@ -92,15 +92,16 @@
         font-size: 0.8rem;
     }
 
-    .footer{
-        margin-left: 20%;
+    .footer3{
+        margin-left: 154%;
     }
 
     .popup{
         margin-left: auto;
         margin-right: auto;
-        width: 50vw;
-        height: 30vh;
+        width: 40vw;
+        height: 18vh;
+        margin-left: 44%;
     }
     .btn{
        
